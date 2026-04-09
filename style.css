@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, hsl(0, 0%, 0%), hwb(244 2% 22%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* kotak utama */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 280px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0 12px;
+    border-radius: 6px;
+    border: 1px solid hsl(0, 73%, 46%);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #4facfe;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: hsl(33, 88%, 44%);
+}
+
+#hasil {
+    text-align: center;
+    margin-top: 10px;
+}
